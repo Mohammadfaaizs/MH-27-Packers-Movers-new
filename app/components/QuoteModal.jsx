@@ -38,6 +38,26 @@ export default function QuoteModal({ close, showToast }) {
     }
   };
 
+  const sendToWhatsApp = (formData) => {
+    const phoneNumber = '9075862071';
+    const message = encodeURIComponent(
+      `🚚 *New Moving Quote Request*\n\n` +
+      `👤 *Name:* ${formData.name}\n` +
+      `📧 *Email:* ${formData.email}\n` +
+      `📱 *Phone:* ${formData.phone}\n` +
+      `📅 *Move Date:* ${formData.moveDate}\n` +
+      `🏠 *Move Type:* ${formData.moveType}\n` +
+      `📍 *From:* ${formData.fromAddress}\n` +
+      `🎯 *To:* ${formData.toAddress}\n` +
+      `📦 *Additional Services:* ${formData.additionalServices.join(', ') || 'None'}\n` +
+      `📝 *Notes:* ${formData.message || 'None'}\n\n` +
+      `*Submitted via MH27 Packers & Movers Website*`
+    );
+    
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -75,6 +95,9 @@ Notes: ${formData.message}
       // Success
       close();
       showToast();
+      
+      // Send data to WhatsApp
+      sendToWhatsApp(formData);
       
       // Reset form
       setFormData({
@@ -309,6 +332,8 @@ Notes: ${formData.message}
              <p className="text-xs text-gray-500 mt-2">
             By submitting this form, you agree to our <a href="/privacy" className="text-blue-600 hover:underline">Privacy Policy</a> and 
             <a href="/terms" className="text-blue-600 hover:underline ml-1">Terms of Service</a>.
+            <br />
+            <span className="text-green-600 font-medium">📱 Your request will also be sent to our WhatsApp for faster response.</span>
           </p>
           </div>
           
