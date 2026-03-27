@@ -24,9 +24,32 @@ export default function ChandrapurPage() {
     setShowQuoteForm(true);
   };
 
+  const sendToWhatsApp = (formData) => {
+    const phoneNumber = '9075862071';
+    const message = encodeURIComponent(
+      `New Moving Quote Request - chandrapur\n\n` +
+      `Name: ${formData.name}\n` +
+      `Email: ${formData.email}\n` +
+      `Phone: ${formData.phone}\n` +
+      `From: ${formData.moveFrom}\n` +
+      `To: ${formData.moveTo}\n` +
+      `Move Date: ${formData.moveDate}\n` +
+      `Items: ${formData.items}\n` +
+      `Message: ${formData.message}\n\n` +
+      `Submitted via MH27 Packers & Movers - chandrapur Page`
+    );
+    
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
   const handleQuoteSubmit = (e) => {
     e.preventDefault();
     console.log('Quote form submitted:', formData);
+    
+    // Send data to WhatsApp
+    sendToWhatsApp(formData);
+    
     alert('Thank you for your quote request! We will contact you shortly.');
     setFormData({
       name: '',
@@ -328,4 +351,5 @@ export default function ChandrapurPage() {
 }
     
   
+
 

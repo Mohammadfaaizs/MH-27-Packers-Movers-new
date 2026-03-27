@@ -31,9 +31,39 @@ export default function Contact() {
     });
   };
 
+  const sendToWhatsApp = (formData) => {
+    const phoneNumber = '9075862071';
+    const additionalServices = [];
+    if (formData.packing) additionalServices.push('Packing Service');
+    if (formData.storage) additionalServices.push('Storage Solutions');
+    if (formData.cleaning) additionalServices.push('Cleaning Service');
+    if (formData.furniture) additionalServices.push('Furniture Assembly/Disassembly');
+    
+    const message = encodeURIComponent(
+      `🚚 *New Moving Quote Request*\n\n` +
+      `👤 *Name:* ${formData.name}\n` +
+      `📧 *Email:* ${formData.email}\n` +
+      `📱 *Phone:* ${formData.phone}\n` +
+      `📅 *Move Date:* ${formData.moveDate}\n` +
+      `🏠 *Move Type:* ${formData.moveType}\n` +
+      `📍 *From:* ${formData.fromAddress}\n` +
+      `🎯 *To:* ${formData.toAddress}\n` +
+      `📦 *Additional Services:* ${additionalServices.join(', ') || 'None'}\n` +
+      `📝 *Notes:* ${formData.message || 'None'}\n\n` +
+      `*Submitted via MH27 Packers & Movers Contact Page*`
+    );
+    
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitted(true);
+    
+    // Send data to WhatsApp
+    sendToWhatsApp(formData);
+    
     setTimeout(() => setIsSubmitted(false), 3000);
   };
 
@@ -331,6 +361,8 @@ export default function Contact() {
                 By submitting this form, you agree to our{' '}
                 <a href="#" className="text-blue-600 hover:underline">Privacy Policy</a> and{' '}
                 <a href="#" className="text-blue-600 hover:underline">Terms</a>.
+                <br />
+                <span className="text-green-600 font-medium">📱 Your request will also be sent to our WhatsApp for faster response.</span>
               </p>
             </form>
           </div>
