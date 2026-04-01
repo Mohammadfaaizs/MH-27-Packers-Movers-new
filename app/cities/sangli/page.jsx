@@ -209,7 +209,7 @@ export default function SangliPage() {
                   <span className="text-gray-700 hover:text-blue-700 transition-colors duration-300">Jalgaon</span>
                 </div>
                 <div className="flex items-center p-3 rounded-lg bg-white shadow-md hover:shadow-lg transition-shadow duration-300 hover:bg-blue-50 cursor-pointer">
-                  <span className="text-gray-700 hover:text-blue-700 transition-colors duration-300">Buldhana</span>
+                  <span className="text-gray-700 hover:text-blue-700 transition-colors duration-300">Mumbai</span>
                 </div>
                 <div className="flex items-center p-3 rounded-lg bg-white shadow-md hover:shadow-lg transition-shadow duration-300 hover:bg-blue-50 cursor-pointer">
                   <span className="text-gray-700 hover:text-blue-700 transition-colors duration-300">Dhule</span>
@@ -233,10 +233,7 @@ export default function SangliPage() {
                   <span className="text-gray-700 hover:text-blue-700 transition-colors duration-300">Palghar</span>
                 </div>
                 <div className="flex items-center p-3 rounded-lg bg-white shadow-md hover:shadow-lg transition-shadow duration-300 hover:bg-blue-50 cursor-pointer">
-                  <span className="text-gray-700 hover:text-blue-700 transition-colors duration-300">Ratnagiri</span>
-                </div>
-                <div className="flex items-center p-3 rounded-lg bg-white shadow-md hover:shadow-lg transition-shadow duration-300 hover:bg-blue-50 cursor-pointer">
-                  <span className="text-gray-700 hover:text-blue-700 transition-colors duration-300">Sindhudurg</span>
+                  <span className="text-gray-700 hover:text-blue-700 transition-colors duration-300">Mumbai</span>
                 </div>
               </div>
               <p className="text-sm text-gray-600">We also serve nearby areas and provide intercity moving services from Sangli to any location in India.</p>

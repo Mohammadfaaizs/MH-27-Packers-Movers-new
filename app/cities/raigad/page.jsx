@@ -203,10 +203,7 @@ export default function RaigadPage() {
                   <span className="text-gray-700 hover:text-blue-700 transition-colors duration-300">Sudhagad</span>
                 </div>
                 <div className="flex items-center p-3 rounded-lg bg-white shadow-md hover:shadow-lg transition-shadow duration-300 hover:bg-blue-50 cursor-pointer">
-                  <span className="text-gray-700 hover:text-blue-700 transition-colors duration-300">Ratnagiri</span>
-                </div>
-                <div className="flex items-center p-3 rounded-lg bg-white shadow-md hover:shadow-lg transition-shadow duration-300 hover:bg-blue-50 cursor-pointer">
-                  <span className="text-gray-700 hover:text-blue-700 transition-colors duration-300">Sindhudurg</span>
+                  <span className="text-gray-700 hover:text-blue-700 transition-colors duration-300">Mumbai</span>
                 </div>
                 <div className="flex items-center p-3 rounded-lg bg-white shadow-md hover:shadow-lg transition-shadow duration-300 hover:bg-blue-50 cursor-pointer">
                   <span className="text-gray-700 hover:text-blue-700 transition-colors duration-300">Mumbai</span>

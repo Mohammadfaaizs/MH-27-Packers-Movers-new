@@ -455,14 +455,6 @@ export default function Home({ setPage, openModal }) {
 
             </Link>
 
-            <Link href="/cities/ratnagiri" className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 px-3 py-2 text-center group">
-
-              <h3 className="text-sm sm:text-base font-bold text-gray-800">Ratnagiri</h3>
-
-            </Link>
-
-            {/* Row 6 */}
-
             <Link href="/cities/sangli" className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 px-3 py-2 text-center group">
 
               <h3 className="text-sm sm:text-base font-bold text-gray-800">Sangli</h3>
@@ -472,12 +464,6 @@ export default function Home({ setPage, openModal }) {
             <Link href="/cities/satara" className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 px-3 py-2 text-center group">
 
               <h3 className="text-sm sm:text-base font-bold text-gray-800">Satara</h3>
-
-            </Link>
-
-            <Link href="/cities/sindhudurg" className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 px-3 py-2 text-center group">
-
-              <h3 className="text-sm sm:text-base font-bold text-gray-800">Sindhudurg</h3>
 
             </Link>
 
