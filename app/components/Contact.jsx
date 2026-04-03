@@ -32,7 +32,7 @@ export default function Contact() {
   };
 
   const sendToWhatsApp = (formData) => {
-    const phoneNumber = '9075862071';
+    const phoneNumber = '8767586798';
     const additionalServices = [];
     if (formData.packing) additionalServices.push('Packing Service');
     if (formData.storage) additionalServices.push('Storage Solutions');
@@ -87,7 +87,7 @@ export default function Contact() {
               <Phone className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">24/7 Helpline</h3>
-            <p className="text-gray-600 mb-2">+91 98765 43210</p>
+            <p className="text-gray-600 mb-2">+91 87675 86798</p>
             <p className="text-sm text-gray-500">Emergency Moving Support</p>
           </div>
 
@@ -96,7 +96,7 @@ export default function Contact() {
               <Mail className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">Email Support</h3>
-            <p className="text-gray-600 mb-2">info@mh27packers.com</p>
+            <p className="text-gray-600 mb-2">mh27pandm@gmail.com</p>
             <p className="text-sm text-gray-500">Quick Quote Response</p>
           </div>
 
@@ -105,7 +105,7 @@ export default function Contact() {
               <MapPin className="w-8 h-8 text-blue-600" />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">Head Office</h3>
-            <p className="text-gray-600 mb-2">Amravati, Maharashtra</p>
+            <p className="text-gray-600 mb-2">Vilas Nagar, Amravati, Maharashtra, 444604</p>
             <p className="text-sm text-gray-500">All India Service Available</p>
           </div>
         </div>

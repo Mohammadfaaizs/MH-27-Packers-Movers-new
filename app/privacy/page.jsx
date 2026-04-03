@@ -91,9 +91,9 @@ export default function PrivacyPolicy() {
                   For privacy-related questions or concerns, contact us at:
                 </p>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <p><strong>Email:</strong> privacy@mh27packers.com</p>
-                  <p><strong>Phone:</strong> +91 93733 73333</p>
-                  <p><strong>Address:</strong> Amravati, Maharashtra 444606</p>
+                  <p><strong>Email:</strong> mh27pandm@gmail.com</p>
+                  <p><strong>Phone:</strong> +91 87675 86798</p>
+                  <p><strong>Address:</strong> Vilas Nagar, Amravati, Maharashtra, 444604</p>
                 </div>
               </section>
 

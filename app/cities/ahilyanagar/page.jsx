@@ -25,7 +25,7 @@ export default function AhilyanagarPage() {
   };
 
   const sendToWhatsApp = (formData) => {
-    const phoneNumber = '9075862071';
+    const phoneNumber = '8767586798';
     const message = encodeURIComponent(
       `New Moving Quote Request - ahilyanagar\n\n` +
       `Name: ${formData.name}\n` +
@@ -315,7 +315,7 @@ export default function AhilyanagarPage() {
               </div>
               <div className="pb-4 hover:bg-blue-50 transition-all duration-300 transform hover:scale-[1.02] rounded-lg">
                 <h3 className="font-semibold text-gray-900 mb-2 hover:text-blue-700 transition-colors duration-300">How do I book your services in Ahilyanagar?</h3>
-                <p className="text-gray-600">You can call us at +91 12345 67890, fill the quote form on our website, or visit our office in Ahilyanagar for a free survey and quotation.</p>
+                <p className="text-gray-600">You can call us at +91 87675 86798, fill the quote form on our website, or visit our office in Ahilyanagar for a free survey and quotation.</p>
               </div>
             </div>
           </div>

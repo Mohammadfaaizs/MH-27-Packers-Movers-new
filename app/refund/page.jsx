@@ -124,10 +124,10 @@ export default function RefundPolicy() {
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4">Contact for Refunds</h2>
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <p><strong>Refund Department:</strong></p>
-                  <p><strong>Email:</strong> refunds@mh27packers.com</p>
-                  <p><strong>Phone:</strong> +91 93733 73333 (Ext: 2)</p>
+                  <p><strong>Email:</strong> mh27pandm@gmail.com</p>
+                  <p><strong>Phone:</strong> +91 87675 86798 (Ext: 2)</p>
                   <p><strong>Working Hours:</strong> Monday to Saturday, 9:00 AM to 7:00 PM</p>
-                  <p><strong>Address:</strong> Amravati, Maharashtra 444606</p>
+                  <p><strong>Address:</strong> Vilas Nagar, Amravati, Maharashtra, 444604</p>
                 </div>
               </section>
             </div>

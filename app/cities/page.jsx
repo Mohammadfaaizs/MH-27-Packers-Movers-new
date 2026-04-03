@@ -116,7 +116,7 @@ export default function CitiesPage() {
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Get Free Quote for Any City</h2>
             <p className="text-xl text-gray-600 mb-8">Contact us today for a free, no-obligation moving quote</p>
             <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors">
-              Call Us Now: +91 12345 67890
+              Call Us Now: +91 87675 86798
             </button>
           </div>
         </div>

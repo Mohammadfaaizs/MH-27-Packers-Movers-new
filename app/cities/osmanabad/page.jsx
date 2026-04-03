@@ -25,7 +25,7 @@ export default function OsmanabadPage() {
   };
 
   const sendToWhatsApp = (formData) => {
-    const phoneNumber = '9075862071';
+    const phoneNumber = '8767586798';
     const message = encodeURIComponent(
       `New Moving Quote Request - osmanabad\n\n` +
       `Name: ${formData.name}\n` +
@@ -322,7 +322,7 @@ export default function OsmanabadPage() {
               <div className="pb-4 hover:bg-blue-50 transition-all duration-300 transform hover:scale-[1.02] rounded-lg cursor-pointer" onClick={() => toggleQuestion('q4')}>
                 <h3 className="font-semibold text-gray-900 mb-2 hover:text-blue-700 transition-colors duration-300">How do I book your services in Osmanabad?</h3>
                 {expandedQuestion === 'q4' && (
-                  <p className="text-gray-600 mt-2">You can call us at +91 12345 67890, fill the quote form on our website, or visit our office in Osmanabad for a free survey and quotation.</p>
+                  <p className="text-gray-600 mt-2">You can call us at +91 87675 86798, fill the quote form on our website, or visit our office in Osmanabad for a free survey and quotation.</p>
                 )}
               </div>
             </div>
